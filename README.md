@@ -1,6 +1,6 @@
 #  TCP Port Scanner 
 ## Internship Project for Syntecxhub
-Learn socket programming, multi-threading, and network security fundamentals in Python! ⚡
+Learn socket programming, multi-threading, and network security fundamentals in Python!
 Covers TCP connect scanning, concurrent threads, port range filtering, and real-time logging.
 
 **Tech Stack:** Python (Standard Library: `socket`, `threading`, `argparse`, `logging`)
