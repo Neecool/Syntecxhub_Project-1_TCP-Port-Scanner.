@@ -49,6 +49,7 @@ The tool is designed to be lightweight, dependency-free, and highly configurable
 **1. Clone the repository (or navigate to the project folder):**
 
 git clone https://github.com/neecool/Syntecxhub_Project-1_TCP-Port-Scanner.git
+
 cd Syntecxhub_Project-1_TCP-Port-Scanner
 
 **2. Run the scanner (No installation required!):**
