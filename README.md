@@ -47,6 +47,56 @@ The tool is designed to be lightweight, dependency-free, and highly configurable
 ###  Setup & Execution:
 
 **1. Clone the repository (or navigate to the project folder):**
-```bash
+
 git clone https://github.com/neecool/Syntecxhub_Project-1_TCP-Port-Scanner.git
 cd Syntecxhub_Project-1_TCP-Port-Scanner
+
+**2. Run the scanner (No installation required!):**
+
+Basic Scan (Scans localhost on default ports 1-1024):
+
+python port_scanner.py localhost
+Scan a specific IP address:
+
+python port_scanner.py 192.168.1.1
+Scan a specific range of ports (e.g., 1 to 1000):
+
+python port_scanner.py example.com -p 1-1000
+Scan only specific common ports:
+
+python port_scanner.py scanme.nmap.org -p 22,80,443,8080
+Increase speed (more threads) and customize timeout:
+
+python port_scanner.py localhost -T 200 -t 2
+View verbose output (detailed logs per port):
+
+python port_scanner.py localhost -v
+
+##  Ethical Disclaimer
+Important: This tool is intended for educational purposes, network troubleshooting, and authorized security testing only.
+Scanning networks, infrastructure, or devices that you do not own or have explicit written permission to test is illegal in most jurisdictions.
+The developer, Syntecxhub, and the contributors are not responsible for any misuse or damage caused by this software. Use it responsibly and only on your own systems (e.g., localhost or lab environments).
+
+## Key Learnings (Internship)
+During Week 1 at Syntecxhub, building this project helped me understand:
+
+ Socket Programming Basics: How TCP handshakes work at the code level using connect_ex().
+
+ Concurrency & Multi-threading: Managing thread pools efficiently to scan hundreds of ports simultaneously.
+
+ CLI Argument Parsing: Building user-friendly command-line tools using argparse.
+
+ Real-time Logging: The importance of logging for debugging and compliance.
+
+ Exception Handling: Writing robust code that gracefully handles network timeouts, DNS failures, and refused connections.
+
+##  Developer
+Nikulkumar Suthar
+Intern at Syntecxhub
+
+##  Acknowledgments
+Thanks to Syntecxhub for providing this valuable internship opportunity and challenging project.
+
+Python Software Foundation for maintaining the robust Standard Library.
+
+The open-source community for continuous inspiration and learning resources.
