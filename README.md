@@ -101,3 +101,9 @@ Thanks to Syntecxhub for providing this valuable internship opportunity and chal
 Python Software Foundation for maintaining the robust Standard Library.
 
 The open-source community for continuous inspiration and learning resources.
+
+## Usage
+
+```bash
+python3 main.py
+```
